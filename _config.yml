@@ -1,3 +1,11 @@
 theme: jekyll-theme-minimal
 title: Welcome to my homepage
 google_analytics: UA-167325838-1
+
+social:
+  name: Christian Antony Quero
+  links:
+    - https://www.facebook.com/christianantonyquero
+    - https://www.linkedin.com/in/christianantonyquero
+    - https://github.com/christianantonyquero
+    - https://www.codewars.com/users/christianantonyquero
