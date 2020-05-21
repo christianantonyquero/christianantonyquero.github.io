@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
 title: Christian Antony Quero
+description: Research and Development Engineer with 3 years of experience in software development.
 google_analytics: UA-167325838-1
 plugins:
   - jekyll-seo-tag
