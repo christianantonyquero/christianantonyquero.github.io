@@ -1,5 +1,5 @@
 ## Christian Antony Quero
-{% raw %}{% seo %}{% endraw %}
+&#123;% raw %&#125;&#123;% seo %&#125;&#123;% endraw %&#125;
 I created a sorting visualizer  [Sorting visualizer](https://christianantonyquero.github.io/visualizer) 
 
 
