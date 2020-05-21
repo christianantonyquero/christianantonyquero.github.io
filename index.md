@@ -2,7 +2,7 @@
 
 You can use the [editor on GitHub](https://github.com/christianantonyquero/christianantonyquero.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-I created a sorting visualizer  [Jekyll](https://christianantonyquero.github.io/visualizer) 
+I created a sorting visualizer  [Sorting visualizer](https://christianantonyquero.github.io/visualizer) 
 
 
 ### Markdown
