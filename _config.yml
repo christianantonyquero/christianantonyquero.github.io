@@ -1,7 +1,8 @@
 theme: jekyll-theme-minimal
 title: Welcome to my homepage
 google_analytics: UA-167325838-1
-
+plugins:
+  - jekyll-seo-tag
 social:
   name: Christian Antony Quero
   links:
