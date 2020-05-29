@@ -13,7 +13,7 @@ layout: default
 
 #### Projects
 
-*   This is an unordered list following a header.
+*   Terminal Multiplexer Tutorial
 
 * * *
 
