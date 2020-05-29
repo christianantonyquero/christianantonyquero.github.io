@@ -13,11 +13,7 @@ layout: default
 
 #### Projects
 
-*   [Terminal Multiplexer](https://christianantonyquero.github.io/terminal-multiplexer)
-
-* * *
-
-*   [iSyudad \*to upload vid](https://christianantonyquero.github.io/visualizer)
+*   [iSyudad to upload vid](https://christianantonyquero.github.io/visualizer)
  - A community-based issue tracking and management web application for local government.
  - The project was presented and was recognized as national awardee on the BPI-DOST Science Awards 2017.
 
@@ -26,5 +22,9 @@ layout: default
 *   [Sorting visualizer](https://christianantonyquero.github.io/visualizer).
   - I created a sorting visualizer this project is inspired by Clement Mihailescu's #[sorting visualizer](https://clementmihailescu.github.io/Sorting-Visualizer/).
   - "An algorithm must be seen to be believed." -Donald Knuth
+
+* * *
+
+*   [Terminal Multiplexer](https://christianantonyquero.github.io/terminal-multiplexer)
 
 * * *
