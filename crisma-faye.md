@@ -15,9 +15,10 @@ Thank you for inspiring me. You make me want to be a better person. Not that you
 Can't wait for the time where we can have the same address (and surname 😂). 
 I'm excited about what the future holds. I hope we get to experience the best the world has to offer... together.
 
-I love you, baby ❤️
+I love you, baby. ❤️
 
 Your Always and Forever,
+
 Christian Antony Quero
 
 * * *
