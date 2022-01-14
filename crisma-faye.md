@@ -24,4 +24,4 @@ Christian Antony Quero
 * * *
 #### PS
 
- - Let's schedule a dinner date tomorrow? (Since we have work today.) Would love to see you in your dress in person but I guess via zoom would do.
+ - Let's schedule a virtual dinner date tomorrow? (Since we are busy today.) Would love to see you in your dress ~~(or none 😉)~~ in person but I guess via zoom would do.
