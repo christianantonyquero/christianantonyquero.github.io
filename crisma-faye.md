@@ -12,9 +12,9 @@ Celebrating our first month, I can't help but remember what Kuya FQ mentioned du
 
 
 Can't wait for the time where we have the same address and surname. :D
-I'm excited about what the future holds. I hope we get to experience the best the world has to offer.... together.
+I'm excited about what the future holds. I hope we get to experience the best the world has to offer... together.
 
-I love you, baby
+I love you, baby.
 
 
 * * *
@@ -22,5 +22,3 @@ I love you, baby
 
  - Let's schedule a dinner date tomorrow? (Since we have work today) Would love to see you in your dress in person but I guess via zoom would do.
 
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
