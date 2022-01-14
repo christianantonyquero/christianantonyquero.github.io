@@ -4,30 +4,23 @@ title: "Dearest"
 filename: crisma-faye.md
 permalink: /crisma-faye/
 ---
-## Christian Antony Quero
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="christianquero"><a class="LI-simple-link" href='https://ph.linkedin.com/in/christianquero?trk=profile-badge'>W Antony Quero</a></div>
-<div>
-  <h2 class="text">Codewars Badge</h2>
-  <a target="_blank" href="https://www.codewars.com/users/christianantonyquero"><img src="https://www.codewars.com/users/christianantonyquero/badges/large" alt="codewars badge large" /></a>
-</div>
+## To my favorite person,
 
-"An algorithm must be seen to be believed." -Donald Knuth
+I couldn't quite explain how time works. It has been two weeks since we last saw each other and we've been together for a month. Being with you for a month felt like we were together for years already. But why is it that it feels like the last time we saw each other is wayyy longer. I miss you baby. I wish I can hold your hands right now and say "Happy 1st Monthsary baby. I love you" in person.
 
-#### Projects
+Celebrating our first month, I can't help but remember what Kuya FQ mentioned during our lunch at San Fernando. Do you still remember it? It goes something along the lines of "It doesn't really matter how long you've been together. What matters most is that you love each other."
 
-*   [iSyudad to upload vid](https://christianantonyquero.github.io/visualizer)
- - A community-based issue tracking and management web application for local government.
- - The project was presented and was recognized as national awardee on the BPI-DOST Science Awards 2017.
+
+Can't wait for the time where we have the same address and surname. :D
+I'm excited about what the future holds. I hope we get to experience the best the world has to offer.... together.
+
+I love you, baby
+
 
 * * *
+#### PS
 
-*   [Sorting visualizer](https://christianantonyquero.github.io/visualizer).
-  - I created a sorting visualizer this project is inspired by Clement Mihailescu's #[sorting visualizer](https://clementmihailescu.github.io/Sorting-Visualizer/).
-  - "An algorithm must be seen to be believed." -Donald Knuth
+ - Let's schedule a dinner date tomorrow? (Since we have work today) Would love to see you in your dress in person but I guess via zoom would do.
 
-* * *
 
-*   [Terminal Multiplexer](https://christianantonyquero.github.io/terminal-multiplexer)
-
-* * *
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
