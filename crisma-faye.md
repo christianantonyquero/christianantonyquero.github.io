@@ -4,7 +4,7 @@ title: "Dearest"
 filename: crisma-faye.md
 permalink: /crisma-faye/
 ---
-## ✨To my favorite person✨,
+
 
 I couldn't quite explain how time works. It has been two weeks since we last saw each other and we've been together for a month. Being with you for a month felt like we were together for years already but why is it that it feels like the last time we saw each other is wayyy longer. I miss you baby. I wish I can hold your hands right now and say "Happy 1st Monthsary baby. I love you.". (Cheers baby to a month of being together! 🥂)
 
