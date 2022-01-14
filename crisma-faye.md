@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Dearest"
+filename: crisma-faye.md
 permalink: /crisma-faye/
 ---
 ## Christian Antony Quero
