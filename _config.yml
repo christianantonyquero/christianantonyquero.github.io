@@ -1,13 +1,13 @@
 theme: jekyll-theme-minimal
-title: Christian Antony Quero
+# title: Christian Antony Quero
 description: 
 google_analytics: UA-167325838-1
 plugins:
   - jekyll-seo-tag
-social:
-  name: Christian Antony Quero
-  links:
-    - https://www.facebook.com/christianantonyquero
-    - https://www.linkedin.com/in/christianantonyquero
-    - https://github.com/christianantonyquero
-    - https://www.codewars.com/users/christianantonyquero
+# social:
+#   name: Christian Antony Quero
+#   links:
+#     - https://www.facebook.com/christianantonyquero
+#     - https://www.linkedin.com/in/christianantonyquero
+#     - https://github.com/christianantonyquero
+#     - https://www.codewars.com/users/christianantonyquero
