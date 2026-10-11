@@ -13,6 +13,15 @@ layout: default
 
 #### Projects
 
+*   [WedFlow — wedding website builder](https://planner-six-inky.vercel.app) ([live demo](https://planner-six-inky.vercel.app/example))
+  - Multi-tenant SaaS where couples co-manage one wedding site; guests RSVP via a public slug page, no login needed.
+  - Personalised invitations: animated envelope-open reveal, private per-guest links, QR codes, Web Share sending, open/view tracking.
+  - Couple dashboard for guest list, RSVPs, messages, music, and an operator admin dashboard across all weddings.
+  - Song requests synced to a shared Spotify playlist (OAuth, encrypted tokens) with iTunes search fallback.
+  - Stack: Next.js 16 (App Router), React 19, Tailwind 4, Auth.js v5, Drizzle ORM + Neon Postgres, Vercel Blob/S3 + CloudFront, Playwright e2e. Deployed on Vercel.
+
+* * *
+
 *   [iSyudad to upload vid](https://christianantonyquero.github.io/visualizer)
  - A community-based issue tracking and management web application for local government.
  - The project was presented and was recognized as national awardee on the BPI-DOST Science Awards 2017.
