@@ -1,0 +1,13 @@
+<div class="wrap">
+  <footer>
+    <span>© {{ site.time | date: '%Y' }} Christian Antony Quero</span>
+    <span><a href="{{ '/blog/feed.xml' | relative_url }}">rss</a> · <a href="https://ph.linkedin.com/in/christianquero">linkedin ↗</a></span>
+  </footer>
+</div>
+<script>
+document.getElementById('theme').addEventListener('click', function(){
+  var r = document.documentElement;
+  r.dataset.theme = r.dataset.theme === 'light' ? 'dark' : 'light';
+  try { localStorage.setItem('theme', r.dataset.theme); } catch(e) {}
+});
+</script>

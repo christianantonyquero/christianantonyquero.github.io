@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+{% include blog-head.html %}
+</head>
+<body>
+{% include blog-nav.html %}
+
+<main class="wrap">
+  <header class="post-head">
+    <a class="back" href="{{ '/blog/' | relative_url }}">← all posts</a>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+    {% assign words = content | number_of_words %}
+    <div class="meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+      <span>{{ words | divided_by: 220 | floor | plus: 1 }} min read</span>
+      {% if page.series %}<span>series · <b>{{ page.series }}</b></span>{% endif %}
+    </div>
+    {% if page.tags.size > 0 %}
+    <ul class="chips">{% for t in page.tags %}<li><a href="{{ '/blog/' | relative_url }}?tag={{ t | uri_escape }}">#{{ t }}</a></li>{% endfor %}</ul>
+    {% endif %}
+  </header>
+
+  <article class="prose">
+{{ content }}
+  </article>
+
+  <nav class="post-foot" aria-label="More posts">
+    {% if page.previous %}<a class="prev" href="{{ page.previous.url | relative_url }}"><span>← older</span><b>{{ page.previous.title }}</b></a>{% endif %}
+    {% if page.next %}<a class="next" href="{{ page.next.url | relative_url }}"><span>newer →</span><b>{{ page.next.title }}</b></a>{% endif %}
+  </nav>
+
+  <p class="cta">I'm a backend engineer writing up what I build and learn. Hiring for backend or platform roles? <a href="https://ph.linkedin.com/in/christianquero">Let's talk on LinkedIn ↗</a></p>
+</main>
+
+{% include blog-foot.html %}
+</body>
+</html>
