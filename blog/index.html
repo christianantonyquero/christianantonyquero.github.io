@@ -1,0 +1,64 @@
+---
+layout: null
+title: Blog
+description: Notes on what I'm building and learning — AI-assisted engineering, LLM tooling, and backend systems at scale.
+---
+<!doctype html>
+<html lang="en">
+<head>
+{% include blog-head.html %}
+</head>
+<body>
+{% include blog-nav.html %}
+
+<main class="wrap">
+  <header class="b-hero">
+    <div class="tag">// build log · learning in public</div>
+    <h1>Notes from<br>the <span class="hl">lab</span>.</h1>
+    <p>What I'm building and learning as a backend engineer: AI-assisted engineering, LLM tooling like MCP and RAG, and the systems work behind a high-traffic marketplace. Written as I go, mistakes included.</p>
+    <a class="feed" href="{{ '/blog/feed.xml' | relative_url }}">subscribe via rss ↗</a>
+  </header>
+
+  {% assign all_tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
+  <div class="filters" role="toolbar" aria-label="Filter by tag">
+    <button type="button" class="on" data-tag="">all · {{ site.posts.size }}</button>
+    {% for t in all_tags %}<button type="button" data-tag="{{ t }}">#{{ t }}</button>{% endfor %}
+  </div>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+    {% assign words = post.content | number_of_words %}
+    <li data-tags="{{ post.tags | join: ' ' }}">
+      <a class="post-row" href="{{ post.url | relative_url }}">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+        <div>
+          <h2>{{ post.title }}</h2>
+          {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+          <ul class="chips">{% for t in post.tags %}<li>#{{ t }}</li>{% endfor %}</ul>
+        </div>
+        <span class="rt">{{ words | divided_by: 220 | floor | plus: 1 }} min</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
+
+{% include blog-foot.html %}
+<script>
+(function(){
+  var btns = document.querySelectorAll('.filters button');
+  var rows = document.querySelectorAll('.posts > li');
+  function apply(tag){
+    btns.forEach(function(b){ b.classList.toggle('on', b.dataset.tag === tag); });
+    rows.forEach(function(r){ r.hidden = !!tag && (' ' + r.dataset.tags + ' ').indexOf(' ' + tag + ' ') < 0; });
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){
+    apply(b.dataset.tag);
+    var u = new URL(location); if (b.dataset.tag) u.searchParams.set('tag', b.dataset.tag); else u.searchParams.delete('tag');
+    history.replaceState(null, '', u);
+  }); });
+  var q = new URLSearchParams(location.search).get('tag'); if (q) apply(q);
+})();
+</script>
+</body>
+</html>

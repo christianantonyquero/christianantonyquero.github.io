@@ -1,9 +1,12 @@
 theme: jekyll-theme-minimal
 title: Christian Antony Quero
 description: Software Engineer
+url: https://christianantonyquero.github.io
+author: Christian Antony Quero
 google_analytics: UA-167325838-1
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
 social:
   name: Christian Antony Quero
   links:
@@ -11,3 +14,16 @@ social:
     - https://www.linkedin.com/in/christianantonyquero
     - https://github.com/christianantonyquero
     - https://www.codewars.com/users/christianantonyquero
+
+# Blog
+permalink: /blog/:title/
+feed:
+  path: blog/feed.xml
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+exclude:
+  - README.md
